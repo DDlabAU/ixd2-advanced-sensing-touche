@@ -20,22 +20,22 @@ Når i har bygget setuppet kan i tilslutte arduinoen og uploade koden. I kan her
 
 [Indsæt billede]
 
-###4.
+### 4.
 
-Herefter kan i tage ledningen der fører til objektet og sætte på fx en plante, frugt eller i en kop med vand. Brug evt. Et krokkodillenæb.
+Herefter kan I tage ledningen der fører til objektet og sætte på fx en plante, frugt eller i en kop med vand. Brug evt. Et krokkodillenæb.
 
-Hvis I oplever en fejl med Serial i processingkoden kan gentilslutte arduinoen, vente et par sekunder, og køre sketchen igen.
+Hvis I oplever en fejl med Serial i processingkoden kan I gentilslutte arduinoen, vente et par sekunder, og køre sketchen igen.
 
 ### 5.
 
-Når i har fået processing koden til køre, kan i forsøge at 'træne' sketchen, ved at trykke på firkanterne ved de forskellige tilstande.
+Når I har fået processing koden til køre, kan I forsøge at 'træne' sketchen, ved at trykke på firkanterne ved de forskellige tilstande.
 
 Eksempelvis
 0 - ingen berørelse ved objektet
 1 - en finger på objektet
 2 - holder fast om objektet
 
-### 6. 
+### 6.
 
 Hvis I herefter vil bruge jeres gesture inputs i processing kan i benytte jer af filen der hedder Receive OSC. Koden benytter sig af open sound control protokollen til at sende dataen. I skriver jeres sketch i draw og bruger fx. currentState variablen.
 
