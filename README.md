@@ -24,7 +24,7 @@ Når i har bygget setuppet kan i tilslutte arduinoen og uploade koden. I kan her
 
 Herefter kan I tage ledningen der fører til objektet og sætte på fx en plante, frugt eller i en kop med vand. Brug evt. Et krokkodillenæb.
 
-Hvis I oplever en fejl med Serial i processingkoden kan I gentilslutte arduinoen, vente et par sekunder, og køre sketchen igen.
+Hvis I oplever en fejl med Serial i processingkoden kan I gentilslutte arduinoen, vente et par sekunder, og køre sketchen igen. Det kan også være at den forkerte port er blevet valgt. Dette kan I ændre i 'Processing_graph_OSC' på linje 18 under 'PortSelected'. I kan se hvilken port i vil benytte jer af, ved at kigge på listen i konsollen når i kører sketchen.
 
 ### 5.
 
