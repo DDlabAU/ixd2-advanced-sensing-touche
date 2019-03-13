@@ -31,9 +31,9 @@ Hvis I oplever en fejl med Serial i processingkoden kan I gentilslutte arduinoen
 Når I har fået processing koden til køre, kan I forsøge at 'træne' sketchen, ved at trykke på firkanterne ved de forskellige tilstande.
 
 Eksempelvis
-0 - ingen berørelse ved objektet
-1 - en finger på objektet
-2 - holder fast om objektet
+* 0 - ingen berørelse ved objektet
+* 1 - en finger på objektet
+* 2 - holder fast om objektet
 
 ### 6.
 
