@@ -47,6 +47,8 @@ Hvis I oplever en fejl med Serial i processingkoden kan I gentilslutte arduinoen
 
 Når I har fået processing koden til køre, kan I forsøge at 'træne' sketchen, ved at trykke på firkanterne ved de forskellige tilstande.
 
+I rører ved objektet og når i ser en ændring i grafen, trykker i på firkanten ud for den tilstand som i vil have den til at genkende. Prøv derefter at give slip fra objektet og se om den genkender ændringen.
+
 Eksempelvis:
 * 0 - ingen berøring
 * 1 - 1 finger på objektet
