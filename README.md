@@ -9,6 +9,17 @@ Arduino og Processing kode er lavet af [Mads Hobye](https://www.instructables.co
 ### 2.
 For at bygge setuppet kan i benytte følgende illustration. Nogle af komponenterne fra illustrationen er vist nederst i denne sektion.
 
+Vi skal bruge følgende komponenter:
+
+- Arduino
+- Usb cable
+- Jumper cables
+- Resister: 10k, 1M, 3,3k Ohm
+- Capacitor: 100pf, 10nf
+- Diode: 1N4148 diode
+- Coil / inductor: 10mH
+- A sensing object.
+
 ![](touchesetup_v2.png)
 
 ![](touchekomp.png)
@@ -16,7 +27,13 @@ For at bygge setuppet kan i benytte følgende illustration. Nogle af komponenter
 Vær opmærksom på at de rigtige kondensatorer bliver brugt for at der kommer et optimalt frekvensaflæsning.
 
 ### 3.
-Når i har bygget setuppet kan i tilslutte arduinoen og uploade koden. I kan herefter forsøge at køre testkoden i processing og se om der er udsving. Grafen skulle gerne så således ud:
+Når i har bygget setuppet kan i tilslutte arduinoen og uploade koden. I kan herefter forsøge at køre testkoden i processing og se om der er udsving. Hvis I ikke har det i forvejen, skal i importere OSC library til processing.
+
+Hvis i ikke har installeret Processing i forvejen kan det hentes [her](https://processing.org/download/).
+
+Inde i processing IDE: Sketch -> Import Library -> Add Library -> Søg på OSCp5 og tryk derefter install.
+
+Når i kører sketchen skal grafen gerne se nogenlunde sådan ud:
 
 [Indsæt billede]
 
