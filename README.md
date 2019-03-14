@@ -35,7 +35,7 @@ Inde i processing IDE: Sketch -> Import Library -> Add Library -> Søg på OSCp5
 
 Når i kører sketchen skal grafen gerne se nogenlunde sådan ud:
 
-[Indsæt billede]
+![](graf.png)
 
 ### 4.
 
