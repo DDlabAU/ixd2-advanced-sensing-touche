@@ -1,6 +1,6 @@
 # Guide til Advanced Sensing - Touché
 
-Arduino og Processing kode er lavet af [Mads Hobye](https://www.instructables.com/id/Touche-for-Arduino-Advanced-touch-sensing/)
+Opsætning af hardware, Arduino og Processing kode er lavet af [Mads Hobye](https://www.instructables.com/id/Touche-for-Arduino-Advanced-touch-sensing/)
 
 ### 1.
  Start med at downloade repository
