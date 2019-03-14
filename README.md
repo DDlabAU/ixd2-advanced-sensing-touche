@@ -57,4 +57,7 @@ Eksempelvis:
 
 Hvis I herefter vil bruge jeres gesture inputs i processing kan i benytte jer af filen der hedder Receive OSC. Koden benytter sig af open sound control protokollen til at sende dataen. I skriver jeres sketch i draw og bruger fx. currentState variablen.
 
+![](tomsketch.png)
+![](sketchvar.png)
+
 I kan eksperimentere mere med koden da OSC er bredt supporteret i forskellige devices og kodemiljøere.
