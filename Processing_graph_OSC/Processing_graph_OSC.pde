@@ -5,21 +5,23 @@ float[] gestureThree = null;
 
 float[][] gesturePoints = new float[4][2];
 float[] gestureDist = new float[4];
-String[] names = {"Nothing", "Touch", "Grab","In water"};
+// Her kan i ændre hvad der skal stå i grafen ved de forskellige gestures
+String[] names = {"0", "1", "2","3"};
 void setup() {
 
-  size(1000, 500); 
+  size(1000, 500);
 
   MyArduinoGraph.xLabel="Readnumber";
   MyArduinoGraph.yLabel="Amp";
-  MyArduinoGraph.Title=" Graph";  
+  MyArduinoGraph.Title=" Graph";
   noLoop();
+  // Her kan i ændre serial porten
   PortSelected=1;      /* ====================================================================
-   adjust this (0,1,2...) until the correct port is selected 
-   In my case 2 for COM4, after I look at the Serial.list() string 
+   adjust this (0,1,2...) until the correct port is selected
+   In my case 2 for COM4, after I look at the Serial.list() string
    println( Serial.list() );
-   [0] "COM1"  
-   [1] "COM2" 
+   [0] "COM1"
+   [1] "COM2"
    [2] "COM4"
    ==================================================================== */
   SerialPortSetup();      // speed of 115200 bps etc.
@@ -37,10 +39,10 @@ void draw() {
   if ( DataRecieved3 ) {
     pushMatrix();
     pushStyle();
-    MyArduinoGraph.yMax=1000;      
-    MyArduinoGraph.yMin=-200;      
+    MyArduinoGraph.yMax=1000;
+    MyArduinoGraph.yMin=-200;
     MyArduinoGraph.xMax=int (max(Time3));
-    MyArduinoGraph.DrawAxis();    
+    MyArduinoGraph.DrawAxis();
     MyArduinoGraph.smoothLine(Time3, Voltage3);
     popStyle();
     popMatrix();
@@ -59,7 +61,7 @@ void draw() {
 
     {
 
-      //  gesturePoints[i][0] = 
+      //  gesturePoints[i][0] =
       if (mousePressed && mouseX > 750 && mouseX<800 && mouseY > 100*(i+1) && mouseY < 100*(i+1) + 50)
       {
         fill(255, 0, 0);
@@ -92,7 +94,7 @@ void draw() {
          fill(0,0,0);
     //       text(names[i],50,450);
        fill(currentAmmount*255.0f, 0, 0);
-     
+
 
        }
        else

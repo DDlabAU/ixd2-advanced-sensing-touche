@@ -41,16 +41,17 @@ Når i kører sketchen skal grafen gerne se nogenlunde sådan ud:
 
 Herefter kan I tage ledningen der fører til objektet og sætte på fx en plante, frugt eller i en kop med vand. Brug evt. Et krokkodillenæb.
 
-Hvis I oplever en fejl med Serial i processingkoden kan I gentilslutte arduinoen, vente et par sekunder, og køre sketchen igen. Det kan også være at den forkerte port er blevet valgt. Dette kan I ændre i 'Processing_graph_OSC' på linje 18 under 'PortSelected'. I kan se hvilken port i vil benytte jer af, ved at kigge på listen i konsollen når i kører sketchen.
+Hvis I oplever en fejl med Serial i processingkoden kan I gentilslutte arduinoen, vente et par sekunder, og køre sketchen igen. Det kan også være at den forkerte port er blevet valgt. Dette kan I ændre i 'Processing_graph_OSC' på linje 19 under 'PortSelected'. I kan se hvilken port i vil benytte jer af, ved at kigge på listen i konsollen når i kører sketchen.
 
 ### 5.
 
 Når I har fået processing koden til køre, kan I forsøge at 'træne' sketchen, ved at trykke på firkanterne ved de forskellige tilstande.
 
-Eksempelvis
-* 0 - ingen berørelse ved objektet
-* 1 - en finger på objektet
-* 2 - holder fast om objektet
+Eksempelvis:
+* 0 - ingen berøring
+* 1 - 1 finger på objektet
+* 2 - holder om objektet
+* 3 - begge hænder tæt på objektet
 
 ### 6.
 
